@@ -200,6 +200,25 @@ h2 {
   color: #44576a;
 }
 
+..about-content p {
+  margin-top: 20px;
+  color: #44576a;
+}
+
+.about-content a.secondary-btn {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.about-content .button-row {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-content .button-row .secondary-btn {
+  display: inline-flex;
+}
+
 /* SERVICES */
 
 .services {
@@ -391,6 +410,31 @@ h2 {
 .copyright {
   margin-top: 20px;
   opacity: 0.8;
+}
+
+/* NOTICES */
+
+.notices {
+  text-align: center;
+}
+
+.notices h2 {
+  color: #204b72;
+  margin-bottom: 20px;
+}
+
+.notices p {
+  margin-bottom: 15px;
+}
+
+.notices ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.notices li {
+  margin-bottom: 10px;
 }
 
 /* MOBILE */
